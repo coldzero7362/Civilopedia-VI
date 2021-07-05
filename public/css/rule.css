@@ -1,0 +1,125 @@
+.mid{
+    width: 100%;
+    height: 25px;
+    background-color: #555;
+}
+.top-menu{
+    width: 1600px;
+    height: 300px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide-menu{
+    width: 150px;
+    height: 225px;
+    margin: 0 30px;
+    box-shadow: 0 0 10px #fdfdfd;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom,
+     from(transparent), color-stop(80%, transparent) , 
+     to(rgba(250, 250, 250, 0.4)));
+    translate: 1000s;
+    cursor: pointer;
+}
+
+.slide-menu>img{
+    width: 100%;
+    height: 100%;
+}
+
+.mid-menu{
+    width: 1600px;
+    height: 300px;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-menu{
+    width: 100%;
+    height: 800px;
+    display: flex;
+}
+
+.detail_menu{
+    width: 175px;
+    height: 225px;
+    background-color: #555;
+    margin: 0 20px;
+    font-family: 'Do Hyeon', sans-serif;
+    color: white;
+    transition: 0.5s ;
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+}
+
+.detail_menu>img{
+    padding-top: 10px;
+    width: 100px;
+    height: 50%;
+}
+.detail_menu>h2{
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+.detail_menu:hover{
+    transform: translateY(-2%);
+
+}
+.textarea{
+    width: 80%;
+    height: 800px;
+    background-color: #292929;
+    overflow: auto;
+}
+.list{
+    width: 20%;
+    height: 100%;
+    background-color: #202020;
+    overflow: auto;
+}
+.list::-webkit-scrollbar{
+    width: 20px;
+    background-color: rgb(29, 29, 29);
+}
+.list::-webkit-scrollbar-thumb {
+    background-color: #313038;
+    border-radius: 5px;
+}
+.result_list {
+    width: 100%;
+    height: 75px;
+    background-color: #3a3a3a;
+    display: flex;
+    color: white;
+    align-items: center;
+    cursor: pointer;
+}
+.result_list:nth-child(2n){
+    background-color: #474747;
+}
+.result_list>img{
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.result{
+    color: white;
+    width: 100%;
+    height: auto;
+    background-color: #363a4b;
+    display: flex;
+    margin-bottom: 5px;
+}
+.result>img{
+    padding: 10px 10px;
+    width: 100px;
+    object-fit: cover;
+}
+.text{
+    padding-left: 20px;
+    padding-top: 10px;
+}

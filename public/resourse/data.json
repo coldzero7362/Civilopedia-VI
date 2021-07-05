@@ -1,0 +1,462 @@
+[
+
+    {
+        "name" : "그리스",
+        "type" : "오리지널",
+        "colors" : [
+            "#74a3f3",
+            "#700000"
+        ],
+        "iconColor" : "#fff",
+        "iconSrc" : "greek.png"
+    },
+    {
+        "name" : "노르웨이",
+        "type" : "오리지널",
+        "colors" : [
+            "#012a6c"
+        ],
+        "iconColor" : "#ca1415",
+        "iconSrc" : "nor.png"
+    },
+    {
+        "name" : "독일",
+        "type" : "오리지널",
+        "colors" : [
+            "#aeaeae"
+        ],
+        "iconColor" : "#181818",
+        "iconSrc" : "ger.png"
+    },
+    {
+        "name" : "러시아",
+        "type" : "오리지널",
+        "colors" : [
+            "#f7d801"
+        ],
+        "iconColor" : "#181818",
+        "iconSrc" : "rus.png"
+    },
+    {
+        "name" : "로마",
+        "type" : "오리지널",
+        "colors" : [
+            "#6d00cd"
+        ],
+        "iconColor" : "#f4d504",
+        "iconSrc" : "rom.png"
+    },
+    {
+        "name" : "미국",
+        "type" : "오리지널",
+        "colors" : [
+            "#002a6c",
+            "#c91515"
+        ],
+        "iconColor" : "#fff",
+        "iconSrc" : "us.png"
+    },
+    {
+        "name" : "브라질",
+        "type" : "오리지널",
+        "colors" : [
+            "#61bf22"
+        ],
+        "iconColor" : "#f7d801",
+        "iconSrc" : "brz.png"
+    },
+    {
+        "name" : "수메르",
+        "type" : "오리지널",
+        "colors" : [
+            "#012a6c"
+        ],
+        "iconColor" : "#ff8112",
+        "iconSrc" : "sum.png"
+    },
+    {
+        "name" : "스키타이",
+        "type" : "오리지널",
+        "colors" : [
+            "#ffb23c"
+        ],
+        "iconColor" : "#780001",
+        "iconSrc" : "ski.png"
+    },
+    {
+        "name" : "스페인",
+        "type" : "오리지널",
+        "colors" : [
+            "#ca1415"
+        ],
+        "iconColor" : "#f7d801",
+        "iconSrc" : "spi.png"
+    },
+    {
+        "name" : "아라비아",
+        "type" : "오리지널",
+        "colors" : [
+            "#f7d801"
+        ],
+        "iconColor" : "#156c30",
+        "iconSrc" : "arab.png"
+    },
+    {
+        "name" : "영국",
+        "type" : "오리지널",
+        "colors" : [
+            "#ca1415",
+            "#e47574"
+        ],
+        "iconColor" : "#ffffff",
+        "iconSrc" : "uk.png"
+    },
+    {
+        "name" : "이집트",
+        "type" : "오리지널",
+        "colors" : [
+            "#014f51"
+        ],
+        "iconColor" : "#eae19d",
+        "iconSrc" : "ez.png"
+    },
+    {
+        "name" : "인도",
+        "type" : "오리지널",
+        "colors" : [
+            "#370065",
+            "#00c299"
+        ],
+        "iconColor" : "#c7fff3",
+        "iconSrc" : "india.png"
+    },
+    {
+        "name" : "일본",
+        "type" : "오리지널",
+        "colors" : [
+            "#f9f9f9"
+        ],
+        "iconColor" : "#780001",
+        "iconSrc" : "jap.png"
+    },
+    {
+        "name" : "중국",
+        "type" : "오리지널",
+        "colors" : [
+            "#156c30",
+            "#eae19e"
+        ],
+        "iconColor" : "#f9f9f9",
+        "iconSrc" : "ch.png"
+    },
+    {
+        "name" : "콩고",
+        "type" : "오리지널",
+        "colors" : [
+            "#f7d801"
+        ],
+        "iconColor" : "#ca1415",
+        "iconSrc" : "cong.png"
+    },
+    {
+        "name" : "프랑스",
+        "type" : "오리지널",
+        "colors" : [
+            "#004fcd",
+            "#e37674"
+        ],
+        "iconColor" : "#eae19d",
+        "iconSrc" : "fr.png"
+    },
+    {
+        "name" : "아즈텍",
+        "type" : "DLC",
+        "colors" : [
+            "#7dece3"
+        ],
+        "iconColor" : "#780001",
+        "iconSrc" : "az.png"
+    },
+    {
+        "name" : "폴란드",
+        "type" : "DLC",
+        "colors" : [
+            "#780001"
+        ],
+        "iconColor" : "#e47473",
+        "iconSrc" : "pol.png"
+    },
+    {
+        "name" : "호주",
+        "type" : "DLC",
+        "colors" : [
+            "#156c30"
+        ],
+        "iconColor" : "#f7d801",
+        "iconSrc" : "os.png"
+    },
+    {
+        "name" : "페르시아",
+        "type" : "DLC",
+        "colors" : [
+            "#b780e6"
+        ],
+        "iconColor" : "#780001",
+        "iconSrc" : "pre.png"
+    },
+    {
+        "name" : "마케도니아",
+        "type" : "DLC",
+        "colors" : [
+            "#535353"
+        ],
+        "iconColor" : "#f7d801",
+        "iconSrc" : "make.png"
+    },
+    {
+        "name" : "누비아",
+        "type" : "DLC",
+        "colors" : [
+            "#eae19d"
+        ],
+        "iconColor" : "#783d02",
+        "iconSrc" : "nubi.png"
+    },
+    {
+        "name" : "크메르",
+        "type" : "DLC",
+        "colors" : [
+            "#750073"
+        ],
+        "iconColor" : "#ff8112",
+        "iconSrc" : "cme.png"
+    },
+    {
+        "name" : "인도네시아",
+        "type" : "DLC",
+        "colors" : [
+            "#780001"
+        ],
+        "iconColor" : "#00c09b",
+        "iconSrc" : "indo.png"
+    },
+    {
+        "name" : "네덜란드",
+        "type" : "흥망성쇠",
+        "colors" : [
+            "#ff8112"
+        ],
+        "iconColor" : "#1d54b8",
+        "iconSrc" : "neder.png"
+    },
+    {
+        "name" : "마푸체",
+        "type" : "흥망성쇠",
+        "colors" : [
+            "#004fce"
+        ],
+        "iconColor" : "#7dece3",
+        "iconSrc" : "mapu.png"
+    },
+    {
+        "name" : "몽골",
+        "type" : "흥망성쇠",
+        "colors" : [
+            "#790002",
+            "#fe8112"
+        ],
+        "iconColor" : "#eae19d",
+        "iconSrc" : "mongol.png"
+    },
+    {
+        "name" : "스코틀랜드",
+        "type" : "흥망성쇠",
+        "colors" : [
+            "#f9f9f9"
+        ],
+        "iconColor" : "#004fce",
+        "iconSrc" : "scott.png"
+    },
+    {
+        "name" : "조지아",
+        "type" : "흥망성쇠",
+        "colors" : [
+            "#f9f9f9"
+        ],
+        "iconColor" : "#ff8112",
+        "iconSrc" : "jojia.png"
+    },
+    {
+        "name" : "줄루",
+        "type" : "흥망성쇠",
+        "colors" : [
+            "#783d02"
+        ],
+        "iconColor" : "#f8f7f7",
+        "iconSrc" : "julu.png"
+    },
+    {
+        "name" : "크리",
+        "type" : "흥망성쇠",
+        "colors" : [
+            "#012a6c"
+        ],
+        "iconColor" : "#61bf22",
+        "iconSrc" : "cri.png"
+    },
+    {
+        "name" : "한국",
+        "type" : "흥망성쇠",
+        "colors" : [
+            "#ca1415"
+        ],
+        "iconColor" : "#74a3f3",
+        "iconSrc" : "kor.png"
+    },
+    {
+        "name" : "마오리",
+        "type" : "몰려드는 폭풍",
+        "colors" : [
+            "#ca1415"
+        ],
+        "iconColor" : "#7dece3",
+        "iconSrc" : "maori.png"
+    },
+    {
+        "name" : "말리",
+        "type" : "몰려드는 폭풍",
+        "colors" : [
+            "#780001"
+        ],
+        "iconColor" : "#eae19d",
+        "iconSrc" : "malri.png"
+    },
+    {
+        "name" : "스웨덴",
+        "type" : "몰려드는 폭풍",
+        "colors" : [
+            "#74a3f3"
+        ],
+        "iconColor" : "#f7d801",
+        "iconSrc" : "sweden.png"
+    },
+    {
+        "name" : "오스만",
+        "type" : "몰려드는 폭풍",
+        "colors" : [
+            "#f9f9f9"
+        ],
+        "iconColor" : "#156c30",
+        "iconSrc" : "osman.png"
+    },
+    {
+        "name" : "잉카",
+        "type" : "몰려드는 폭풍",
+        "colors" : [
+            "#783d02"
+        ],
+        "iconColor" : "#f7d801",
+        "iconSrc" : "linka.png"
+    },
+    {
+        "name" : "캐나다",
+        "type" : "몰려드는 폭풍",
+        "colors" : [
+            "#f9f9f9"
+        ],
+        "iconColor" : "#ca1415",
+        "iconSrc" : "canada.png"
+    },
+    {
+        "name" : "페니키아",
+        "type" : "몰려드는 폭풍",
+        "colors" : [
+            "#6d00cd"
+        ],
+        "iconColor" : "#74a3f3",
+        "iconSrc" : "dido.png"
+    },
+    {
+        "name" : "헝가리",
+        "type" : "몰려드는 폭풍",
+        "colors" : [
+            "#156c30"
+        ],
+        "iconColor" : "#ff8112",
+        "iconSrc" : "hung.png"
+    },
+    {
+        "name" : "마야",
+        "type" : "뉴 프론티어 패스",
+        "colors" : [
+            "#4d85b8"
+        ],
+        "iconColor" : "#004c32",
+        "iconSrc" : "maya.png"
+    },
+    {
+        "name" : "그란 콜롬비아",
+        "type" : "뉴 프론티어 패스",
+        "colors" : [
+            "#012a6c"
+        ],
+        "iconColor" : "#f6d801",
+        "iconSrc" : "grancol.png"
+    },
+    {
+        "name" : "에티오피아",
+        "type" : "뉴 프론티어 패스",
+        "colors" : [
+            "#f7d801"
+        ],
+        "iconColor" : "#156c30",
+        "iconSrc" : "gus.png"
+    },
+    {
+        "name" : "비잔틴",
+        "type" : "뉴 프론티어 패스",
+        "colors" : [
+            "#370065"
+        ],
+        "iconColor" : "#eae19d",
+        "iconSrc" : "bizantin.png"
+    },
+    {
+        "name" : "골",
+        "type" : "뉴 프론티어 패스",
+        "colors" : [
+            "#156c30"
+        ],
+        "iconColor" : "#75dcd1",
+        "iconSrc" : "gol.png"
+    },
+    {
+        "name" : "바빌론",
+        "type" : "뉴 프론티어 패스",
+        "colors" : [
+            "#4c86b8"
+        ],
+        "iconColor" : "#002364",
+        "iconSrc" : "babilron.png"
+    },
+    {
+        "name" : "베트남",
+        "type" : "뉴 프론티어 패스",
+        "colors" : [
+            "#f7d801"
+        ],
+        "iconColor" : "#5e0061",
+        "iconSrc" : "vietNam.png"
+    },
+    {
+        "name" : "포르투갈",
+        "type" : "뉴 프론티어 패스",
+        "colors" : [
+            "#ffffff"
+        ],
+        "iconColor" : "#12336c",
+        "iconSrc" : "fortogal.png"
+    }
+    
+
+]

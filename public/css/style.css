@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+header{
+    width: 1600px;
+    height: 50px;
+    background-color: #444;
+    margin: 0 auto;
+    display: flex;
+}
+.logo{
+    width: 150px;
+    height: 100%;
+}
+.logo>a>img{
+    width: 150px;
+    padding-left: 30px;
+}
+.in{
+    width: 200px;
+    height: 100%;
+    float: right;
+    margin-left: 1200px;
+    margin-top: 10px;
+}
+
+.in > input::placeholder {
+    color: #aaa;
+}
+
+.in > input {
+    padding: 0 10px;
+    width: 100%;
+    height: 5px;
+    background-color: #666;
+    border: 2px solid tomato;
+    border-radius: 10px;
+    padding: .8em .5em;
+    outline: none;
+    font-size: 10px;
+    color: white;
+}
+.container{
+    width: 1600px;
+    height: auto;
+    margin: 0 auto;
+}
+.bg{
+    width: 1600px;
+    height: 396px;
+    position: relative;
+}
+.bg>img:first-child{
+    filter: grayscale(50%);
+    transition: 1s;
+}
+.bg>img:first-child:hover{
+    filter: grayscale(20%);
+}
+.bg>img:last-child{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.menu-list{
+    width: 100%;
+    height: 500px;
+    background-color: #444;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.menu{
+    width: 175px;
+    height: 225px;
+    background-color: #555;
+    margin: 0 20px;
+    font-family: 'Do Hyeon', sans-serif;
+    color: white;
+    transition: 1s;
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+}
+.menu>img{
+    padding-top: 10px;
+    width: 100px;
+    height: 50%;
+}
+.menu>h2{
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+
+.menu:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px rgb(121, 0, 0);
+}
+.back-gradient{
+    width: auto;
+    height: auto;
+    background: rgb(47,47,47);
+    background: linear-gradient(90deg, rgba(47,47,47,1) 0%, rgba(48,53,60,1) 20%, rgba(48,53,60,1) 80%, rgba(60,60,60,1) 100%);
+}
+footer{
+    width: 1600px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #555;
+    text-align: center;
+    color: white;
+    font-family: 'Do Hyeon', sans-serif;
+    line-height: 50px;
+}
