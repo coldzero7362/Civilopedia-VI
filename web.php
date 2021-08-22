@@ -10,6 +10,7 @@ Route::get('/unit' , "MainController@unit");
 Route::get('/tech' , "MainController@tech");
 Route::get('/civ' , "MainController@civ");
 Route::get('/civ_result' , "MainController@civ_result");
+Route::get('/City' , "MainController@City");
 
 
 Route::get("/getRule" , "MainController@getRule");

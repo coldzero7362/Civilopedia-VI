@@ -19,12 +19,12 @@
             <img src="resourse/unit/air.png" alt="3">
             <p>공중전</p>
         </div>
-        <div class="slide-menu" data-idx="4">
-            <img src="resourse/unit/Support.png" alt="4">
+        <div class="slide-menu" data-idx="5">
+            <img src="resourse/unit/Support.png" alt="5">
             <p>지원유닛</p>
         </div>
-        <div class="slide-menu" data-idx="5">
-            <img src="resourse/unit/Civilian.png" alt="5">
+        <div class="slide-menu" data-idx="4">
+            <img src="resourse/unit/Civilian.png" alt="4">
             <p>민간유닛</p>
         </div>
         <div class="slide-menu" data-idx="6">
@@ -41,6 +41,30 @@
        <div class="list">
        </div>
        <div class="textarea">
+            <div class="tableLike">
+                <div class="name">
+                    유닛
+                </div>
+                <div class="move">
+                    <img src="resourse/move.png" alt="1">
+                    <p>이동력</p>
+                </div>
+                <div class="attack">
+                    <img src="resourse/milly.png" alt="1">
+                    <p>전투력</p>
+                </div>
+                <div class="tech">
+                    <p>필요 기술</p>
+                </div>
+                <div class="resource">
+                    <p>소모 자원</p>
+                </div>
+            </div>
+            <div class="display_unit">
+                <div class="unitForm">
+
+                </div>
+            </div>
        </div>
     </div>
 </div>

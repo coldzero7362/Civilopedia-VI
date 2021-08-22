@@ -36,7 +36,10 @@ class MainController extends MasterController
     {
         $this->render("civ_result");
     }
-
+    public function City()
+    {
+        $this->render("City");
+    }
    
 
     public function getRule()

@@ -10,7 +10,7 @@ window.addEventListener("load" , async ()=>{
 
 function drawMenu(result) {//좀큰 리스트
     $('.list').html('');
-    $('.textarea').html('');
+    $('.display_unit').html('');
     result.forEach(item =>{
         $('.list').append(`
             <div class="unitMenu">
