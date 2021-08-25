@@ -66,6 +66,12 @@ class MainController extends MasterController
         $result = DB::fetchAll("SELECT * FROM unit_department WHERE data_idx = ?" , [ $idx ]);
         Lib::sendJson($result);
     }
+    public function getUnit_form()
+    {
+        $idx = $_GET['idx'];
+        $result = DB::fetchAll("SELECT * FROM unit_department WHERE data_idx = ?" , [ $idx ]);
+        Lib::sendJson($result);
+    }
     public function getleader()
     {
         $idx = $_GET['index'];
@@ -84,4 +90,5 @@ class MainController extends MasterController
         $result = DB::fetchAll("SELECT * FROM leaders WHERE idx = ?" , [ $idx ]);
         Lib::sendJson($result);
     }
+
 }

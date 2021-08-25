@@ -76,3 +76,69 @@
     line-height: 100px;
     font-size: 25px;
 }
+.tableLike{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: sticky
+}
+.tableLike>div{
+    display: flex;
+    background-color: rgb(95, 95, 116);
+    color: white;
+    justify-content: center;
+    margin: 0 1px;
+    line-height: 50px;
+    font-size: 1.1em;
+    font-weight: 200;
+    font-family: 'Do Hyeon', sans-serif;
+    box-shadow: 0 2px 2px #222;
+}
+.tableLike>div img{
+    width: 20px;
+    height: 20px;
+    padding: 15px 2px;
+}
+.display_unit{
+    width: 100%;
+    height: 750px;
+    overflow: auto;
+}
+.unitForm{
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+.unitForm > div{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(57, 57, 70);
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 200;
+    font-family: 'Do Hyeon', sans-serif;
+    box-shadow: 0 2px 2px #222;
+    margin: 0 1px;
+}
+.unitForm >div>img{
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+}
+.name{
+    flex: 1;
+}
+.move{
+    flex:1;
+}
+.attack{
+    flex: 1;
+}
+.tech{
+    flex:3;
+}
+.resource{
+    flex: 3;
+}

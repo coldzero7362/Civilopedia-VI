@@ -46,11 +46,11 @@
                     유닛
                 </div>
                 <div class="move">
-                    <img src="resourse/move.png" alt="1">
+                    <img src="resourse/status/move.png" alt="1">
                     <p>이동력</p>
                 </div>
                 <div class="attack">
-                    <img src="resourse/milly.png" alt="1">
+                    <img src="resourse/status/milly.png" alt="1">
                     <p>전투력</p>
                 </div>
                 <div class="tech">
@@ -62,7 +62,22 @@
             </div>
             <div class="display_unit">
                 <div class="unitForm">
-
+                    <div class="name">
+                        <img src="resourse\unit\icon\1.png" alt="1">
+                        <p>전사</p>
+                    </div>
+                    <div class="move">
+                        <p>2</p>
+                    </div>
+                    <div class="attack">
+                        <p>근접 - 20<p>
+                    </div>
+                    <div class="tech">
+                        <p>-</p>
+                    </div>
+                    <div class="resource">
+                        <p>-</p>
+                    </div>
                 </div>
             </div>
        </div>

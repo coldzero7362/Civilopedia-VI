@@ -17,6 +17,7 @@ Route::get("/getRule" , "MainController@getRule");
 Route::get("/getRule_list" , "MainController@getRule_list");
 Route::get("/getRule_text" , "MainController@getRule_text");
 Route::get("/getUnit" , "MainController@getUnit");
+Route::get("/getUnit_form" , "MainController@getUnit_form");
 Route::get("/getCiv" , "MainController@getCiv");
 Route::get("/getleader" , "MainController@getleader");
 Route::get("/getleader_idx" , "MainController@getleader_idx");
