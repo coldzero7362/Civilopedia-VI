@@ -19,19 +19,19 @@
             <img src="resourse/unit/air.png" alt="3">
             <p>공중전</p>
         </div>
-        <div class="slide-menu" data-idx="5">
+        <div class="slide-menu" data-idx="4">
             <img src="resourse/unit/Support.png" alt="5">
             <p>지원유닛</p>
         </div>
-        <div class="slide-menu" data-idx="4">
+        <div class="slide-menu" data-idx="5">
             <img src="resourse/unit/Civilian.png" alt="4">
             <p>민간유닛</p>
         </div>
-        <div class="slide-menu" data-idx="6">
+        <div class="greatPeople">
             <img src="resourse/unit/great.png" alt="6">
             <p>위인</p>
         </div>
-        <div class="slide-menu" data-idx="7">
+        <div class="slide-menu" data-idx="6">
             <img src="resourse/unit/Religious.png" alt="7">
             <p>종교</p>
         </div>
@@ -59,26 +59,12 @@
                 <div class="resource">
                     <p>소모 자원</p>
                 </div>
+                <div class="gold">
+                    <p>생산비용&유지비</p>
+                </div>
             </div>
             <div class="display_unit">
-                <div class="unitForm">
-                    <div class="name">
-                        <img src="resourse\unit\icon\1.png" alt="1">
-                        <p>전사</p>
-                    </div>
-                    <div class="move">
-                        <p>2</p>
-                    </div>
-                    <div class="attack">
-                        <p>근접 - 20<p>
-                    </div>
-                    <div class="tech">
-                        <p>-</p>
-                    </div>
-                    <div class="resource">
-                        <p>-</p>
-                    </div>
-                </div>
+                <!--unit_form이 생성될 장소-->
             </div>
        </div>
     </div>

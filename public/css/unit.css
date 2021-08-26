@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
 }
-.slide-menu{
+.slide-menu,.greatPeople{
     width: 150px;
     font-family: 'Do Hyeon', sans-serif;
     height: 60px;
@@ -18,6 +18,7 @@
     box-shadow: 0 0 5px #1a1a1a;
     cursor: pointer;
     display: flex;
+    text-align: center;
 }
 .slide-menu>img{
     flex: 1;
@@ -57,15 +58,19 @@
 }
 .unitMenu{
     width: 320px;
-    height: 100px;
+    height: 75px;
     display: flex;
     background-color: #444;
     box-shadow: 0 0 5px #1a1a1a;
     justify-content: center;
+    cursor: pointer;
+}
+.unitMenu:nth-child(2n){
+    background-color: rgb(82, 82, 82);
 }
 .unitMenu>img{
     flex: 1;
-    height: 75px;
+    height: 50px;
     margin: 10px 5px;
 }
 .unitMenu>p{
@@ -73,7 +78,7 @@
     font-family: 'Do Hyeon', sans-serif;
     color: white;
     text-align: center;
-    line-height: 100px;
+    line-height: 75px;
     font-size: 25px;
 }
 .tableLike{
@@ -103,6 +108,11 @@
     width: 100%;
     height: 750px;
     overflow: auto;
+    -ms-overflow-style: none;
+}
+/* 스크롤 바 숨기기 */
+.display_unit::-webkit-scrollbar{
+     display:none; 
 }
 .unitForm{
     width: 100%;
@@ -112,15 +122,14 @@
 .unitForm > div{
     display: flex;
     flex-direction: column;
-    background-color: rgb(57, 57, 70);
+    background-color: #393946;
     color: white;
     justify-content: center;
     text-align: center;
     font-size: 1.1em;
     font-weight: 200;
     font-family: 'Do Hyeon', sans-serif;
-    box-shadow: 0 2px 2px #222;
-    margin: 0 1px;
+    margin: 1px 1px;
 }
 .unitForm >div>img{
     width: 90px;
@@ -141,4 +150,7 @@
 }
 .resource{
     flex: 3;
+}
+.gold{
+    flex: 2;
 }
