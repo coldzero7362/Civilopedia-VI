@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.0
+-- version 5.0.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- 생성 시간: 21-08-26 09:08
--- 서버 버전: 10.4.18-MariaDB
--- PHP 버전: 8.0.3
+-- 생성 시간: 21-08-26 18:18
+-- 서버 버전: 10.4.17-MariaDB
+-- PHP 버전: 8.0.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -20,6 +20,68 @@ SET time_zone = "+00:00";
 --
 -- 데이터베이스: `civilopediavi`
 --
+
+-- --------------------------------------------------------
+
+--
+-- 테이블 구조 `city_kind`
+--
+
+CREATE TABLE `city_kind` (
+  `idx` int(11) NOT NULL,
+  `icon` varchar(100) NOT NULL,
+  `kind` varchar(100) NOT NULL,
+  `one` varchar(200) NOT NULL,
+  `two` varchar(200) NOT NULL,
+  `three` varchar(200) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- 테이블의 덤프 데이터 `city_kind`
+--
+
+INSERT INTO `city_kind` (`idx`, `icon`, `kind`, `one`, `two`, `three`) VALUES
+(1, 'tech', '과학 도시국가', '수도와 모든 도서관 건물에<br><div class=\"tech\">과학 +1</div>', '모든 대학교와 영사관 건물에<br><div class=\"tech\">과학 +2</div>', '모든 연구소와 상법부 건물에<br><div class=\"tech\">과학 +3</div>'),
+(2, 'army', '군사 도시국가', '유닛 생산 시 병영이나<br>마구간 건물이 있는 수도 및 모든 도시에 <div class=\"producter\">생산력 +1</div>', '유닛 생산 시 무기고 또는<br>영사관 건물이 있는 모든 도시에 <div class=\"producter\">생산력 +2</div>\r\n두 종류의 건물이 모두 있다면 <div class=\"producter\">생산력 +4</div>', '유닛 생산 시 사관학교 또는<br>상법부 건물이 있는 모든 도시에 <div class=\"producter\">생산력 +3</div>\r\n두 종류의 건물이 모두 있다면 <div class=\"producter\">생산력 +6</div>'),
+(3, 'culture', '문화 도시국가', '수도와 모든 원형 극장 건물에<div class=\"culture\">문화 +1</div>', '모든 미술관/고고학 박물관과 영사관 건물에<div class=\"culture\">문화 +2</div>', '모든 방송 센터와 상법부 건물에<div class=\"culture\">문화 +3</div>'),
+(4, 'product', '산업 도시국가', '불가사의, 건물, 특수지구 건설 시 수도나 작업장 건물이 있는 모든 도시에 <div class=\"producter\">생산력 +1</div>', '불가사의, 건물, 특수지구 건설 시 공장이 있는 모든 도시나 영사관이 있는 도시에 <div class=\"producter\">생산력 +2</div>\r\n두 종류의 건물이 모두 있다면 <div class=\"producter\">생산력 +4</div>', '불가사의, 건물, 특수지구 건설 시 공장이 있는 모든 도시나 영사관이 있는 도시에 <div class=\"producter\">생산력 +3</div>\r\n두 종류의 건물이 모두 있다면 <div class=\"producter\">생산력 +6</div>'),
+(5, 'money', '상업 도시국가', '수도와 모든 시장 및 등대 건물에 <div class=\"money\">금 +1</div>', '모든 은행, 조선소 및 영사관 건물에 <div class=\"money\">금 +2</div>\r\n', '모든 증권 거래소, 항구 및 상법부 건물에 <div class=\"money\">금 +3</div>'),
+(6, 'religion', '종교 도시국가', '수도 및 모든 성소 건물에 <div class=\"religion\">신앙 +1</div>', '모든 사원 및 영사관 건물에 <div class=\"religion\">신앙 +2</div>', '모든 예배 건물 및 상법부 건물에 <div class=\"religion\">신앙 +3</div>');
+
+-- --------------------------------------------------------
+
+--
+-- 테이블 구조 `city_list`
+--
+
+CREATE TABLE `city_list` (
+  `idx` int(11) NOT NULL,
+  `kind` int(11) NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `bonus` varchar(300) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- 테이블의 덤프 데이터 `city_list`
+--
+
+INSERT INTO `city_list` (`idx`, `kind`, `name`, `bonus`) VALUES
+(1, 1, '제네바', '플레이어가 다른 문명과 전쟁 중이 아닐 때, 플레이어의 도시에 과학 +15% 제공'),
+(2, 1, '하투사', '발견했지만 개발하고 있지 않은 전략 자원을 턴당 종류별로 2개씩 제공'),
+(3, 1, '페즈', '종교 유닛을 사용하여 도시를 처음으로 개종시킬 때마다<br>그 도시의 인구수당 과학 20 획득'),
+(4, 1, '날란다<br>', '건설자가 마하비하라 시설 건설 가능.<br>\r\n과학 +2 및 주거공간 +1. 인접한 성지 특수지구마다 신앙 +1, 인접한 캠퍼스 특수지구마다 과학 +1,<br>\r\n과학 이론 연구 이후 인접한 캠퍼스 특수지구마다 과학 +2.<br>\r\n첫 마하비하라를 건설한 플레이어는 무작위 기술을 얻음.<br>\r\n다른 마하비하라와 인접하여 건설 불가능.'),
+(5, 1, '타루가', '모든 도시가 보유한 각각의 다른 향상된 전략 자원에 대해 5%의 과학을 획득한다.'),
+(6, 1, '안산', '걸작 저서마다 과학 +2, 성유물 및 유물마다 과학 +1 제공'),
+(7, 1, '볼로냐', '플레이어의 특수지구에 건물이 있다면, 해당 특수지구가 유형에 맞는 위인 점수 +1점 제공'),
+(8, 1, '미틀라', '캠퍼스 특수지구가 있는 도시의 성장률이 15% 증가.'),
+(9, 2, '발레타', '도심부 건물과 주둔지 건물을 신앙으로 구매 가능.<br>\r\n고대, 중세, 르네상스 성벽 구매비용이 저렴해지며 신앙으로 구매 가능'),
+(10, 2, '카불', '플레이어의 전투 유닛이 공격을 개시한 경우 경험치 2배 제공'),
+(11, 2, '프레슬라프', '도시에서 각 주둔지 특수지구 건물에 충성심 +2 제공'),
+(12, 2, '아카드', '근접과 대기병 유닛은 공성 유닛 없이도 도시 성벽에 최대 피해를 가할 수 있음.'),
+(13, 2, '그라나다', '건설자가 알카사르 시설을 건설할 수 있게 됨'),
+(14, 2, '라호르', '종주국에서 신앙으로 구매하는 고유 유닛인 니항을 구매할 수 있다.<br>\r\n니항은 병영, 무기고, 사관학교를 건설하면 전투력이 증가한다.'),
+(15, 2, '볼린', '지상 유닛이 다른 문명의 유닛을 처치하면 상대 유닛 전투력의 25%(보통 속도 기준)의 위대한 장군 점수 획득.<br>\r\n해상 유닛이 다른 문명의 유닛을 처치하면 상대 유닛 전투력의 25%(보통 속도 기준)의 위대한 제독 점수 획득.'),
+(16, 2, '느가자르가무', '도시 내 주둔지 특수지구 건물 하나마다 지상 군사 유닛 및 군사보조 유닛을 구입하는 데<br>필요한 금 및 신앙 20%씩 감소');
 
 -- --------------------------------------------------------
 
@@ -364,12 +426,24 @@ INSERT INTO `unit_form` (`idx`, `data_idx`, `name`, `img`, `move`, `attack`, `te
 (35, 7, '레인저', '34', '3', '근접 - 45<br>\r\n원거리 - 60<br>\r\n사거리 - 1', '강선', '-', '생산력 - 380<br>\r\n금 - 1520<br>\r\n유지비 - 5 금'),
 (36, 7, '특수작전부대', '35', '3', '근접 - 60<br>\r\n원거리 - 65<br>\r\n사거리 - 2', '플라스틱', '-', '생산력 - 520<br>\r\n금 - 2080<br>\r\n유지비 - 7 금'),
 (37, 8, '거대전투로봇', '36', '5', '근접 - 130<br>\r\n원거리 - 120<br>\r\n사거리 - 3', '로봇공학', '-', '생산력 - 1500<br>\r\n금 - 6000<br>\r\n필요 자원 - 우라늄<br>\r\n유지비 - 15 금<br>\r\n유지자원 - 우라늄 3'),
-(38, 9, '전투승', '37', '3', '근접 - 40', '-', '신자교리 \'전투승\'<br>\r\n건물 \'사원\'', '신앙 - 200<br>\r\n유지비 - 2 금'),
-(39, 9, '니항', '38', '3', '근접 - 25(+45)<br>\r\n(주둔지 건물 당 +15)', '-', '도시국가 라호르의 종주국', '신앙 - 200<br>\r\n유지비 - 2 금');
+(38, 9, '전투승', '37', '3', '근접 - 40', '신자교리 \'전투승\'<br>\r\n건물 \'사원\'', '-', '신앙 - 200<br>\r\n유지비 - 2 금'),
+(39, 9, '니항', '38', '3', '근접 - 25(+45)<br>\r\n(주둔지 건물 당 +15)', '도시국가 라호르의 종주국', '-', '신앙 - 200<br>\r\n유지비 - 2 금');
 
 --
 -- 덤프된 테이블의 인덱스
 --
+
+--
+-- 테이블의 인덱스 `city_kind`
+--
+ALTER TABLE `city_kind`
+  ADD PRIMARY KEY (`idx`);
+
+--
+-- 테이블의 인덱스 `city_list`
+--
+ALTER TABLE `city_list`
+  ADD PRIMARY KEY (`idx`);
 
 --
 -- 테이블의 인덱스 `civ`
@@ -416,6 +490,18 @@ ALTER TABLE `unit_form`
 --
 -- 덤프된 테이블의 AUTO_INCREMENT
 --
+
+--
+-- 테이블의 AUTO_INCREMENT `city_kind`
+--
+ALTER TABLE `city_kind`
+  MODIFY `idx` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
+--
+-- 테이블의 AUTO_INCREMENT `city_list`
+--
+ALTER TABLE `city_list`
+  MODIFY `idx` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- 테이블의 AUTO_INCREMENT `civ`

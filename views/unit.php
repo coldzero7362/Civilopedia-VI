@@ -1,6 +1,4 @@
 <?
-
-
 ?>
 <link rel="stylesheet" href="/css/unit.css">
 <script src="/dev/unit.js"></script>
@@ -54,7 +52,7 @@
                     <p>전투력</p>
                 </div>
                 <div class="tech">
-                    <p>필요 기술</p>
+                    <p>생산 조건</p>
                 </div>
                 <div class="resource">
                     <p>소모 자원</p>

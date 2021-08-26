@@ -40,6 +40,10 @@ class MainController extends MasterController
     {
         $this->render("City");
     }
+    public function governor()
+    {
+        $this->render("governor");
+    }
    
 
     public function getRule()
@@ -88,6 +92,18 @@ class MainController extends MasterController
     {
         $idx = $_GET['index'];
         $result = DB::fetchAll("SELECT * FROM leaders WHERE idx = ?" , [ $idx ]);
+        Lib::sendJson($result);
+    }
+    public function getCity_kind()
+    {
+        $idx = $_GET['idx'];
+        $result = DB::fetchAll("SELECT * FROM city_kind WHERE idx = ?" , [ $idx ]);
+        Lib::sendJson($result);
+    }
+    public function getCity_list()
+    {
+        $idx = $_GET['idx'];
+        $result = DB::fetchAll("SELECT * FROM city_list WHERE kind = ?" , [ $idx ]);
         Lib::sendJson($result);
     }
 

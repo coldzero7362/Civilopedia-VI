@@ -1,4 +1,154 @@
 .city{
     width: 100%;
-    height: 750px;
+    height: 850px;
+    background-color: #333;
+    display: flex;
+    color: white;
+    font-family: 'Do Hyeon', sans-serif;
+}
+.product_menu{
+    flex: 1;
+    background-color: rgb(32, 32, 32);
+    
+}
+.product{
+    width: 135px;
+    height: 135px;
+    background-color: #232327;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 6px 20px;
+    box-shadow: 0 0 2px rgb(0, 0, 0) inset;
+    cursor: pointer;
+}
+.product > img{
+    flex: 3;
+    width: 80px;
+    height: 75px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.product > p{
+    flex: 2;
+    line-height: 30px;
+    font-size: larger;
+}
+.tech{
+    color: #6699FF;
+}
+.army{
+    color: #FF0000;
+}
+.culture{
+    color: #e600e8;
+}
+.producter{
+    color: #FF9900;
+}
+.money{
+    color: #FFFF00;
+}
+.product_form{
+    flex: 4;
+    background-color: #333338;
+}
+.city_header{
+    width: 100%;
+    height: 150px;
+    background-color: #212125;
+    text-align: center;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+.city_header img{
+    width: 80px;
+    margin: 5px 0;
+}
+.table_Like{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.table_Like > div{
+    text-align: center;
+    height: 100%;
+    margin: 5px 2px;
+    background-color: #393944;
+    line-height: 50px;
+    font-size: larger;
+}
+.envoy_cnt{
+    flex: 1;
+}
+.envoy_bonus{
+    flex: 3;
+}
+.envoy_form{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+}
+.one_block{
+    flex: 1;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.one_block > div{
+    margin: 2px 2px;
+    background-color: #252527;
+    font-size: 25px;
+}
+
+.cnt{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bonus{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.city_list{
+    flex: 5;
+    background-color: rgb(31, 31, 34);
+    overflow: auto;
+    -ms-overflow-style: none;
+}
+.city_list::-webkit-scrollbar{
+    display:none; 
+}
+.bar{
+    display: flex;
+    width: 98%;
+    height: 150px;
+    background-color: #393944;
+    margin: 5px 10px;
+    text-align: center;
+    justify-content: center;
+}
+.icon{
+    flex: 1;
+}
+.icon>img{
+    width: 90px;
+    padding: 10px;
+}
+.icon>p{
+    font-size: larger;
+}
+.desc{
+    flex: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: auto;
 }

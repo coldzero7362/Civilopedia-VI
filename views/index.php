@@ -26,13 +26,13 @@
         <div class="menu">
             <img src="/resourse/icon/tile.png" alt="1">
             <h2>지형&시설</h2>
-            <p>지형부터 시설까지</p>
+            <p>추후 구현 예정</p>
         </div>
         </a>
         <a href="unit">
         <div class="menu">
             <img src="/resourse/icon/unit.png" alt="1">
-            <h2>유닛&병법</h2>
+            <h2>유닛</h2>
             <p>지피지기 백전백승</p>
         </div>
         </a>
@@ -40,7 +40,7 @@
         <div class="menu">
             <img src="/resourse/icon/tech.png" alt="1">
             <h2>기술&사회제도</h2>
-            <p>유레카!</p>
+            <p>추후 구현 예정</p>
         </div>
         </a>
         <a href="civ">
@@ -56,19 +56,19 @@
         <div class="menu">
             <img src="/resourse/icon/unit.png" alt="1">
             <h2>정부와 정책</h2>
-            <p>국민은 수준에 맞는<br>정부를 가진다.</p>
+            <p>추후 구현 예정</p>
         </div>
         </a>
-        <a href="unit">
+        <a href="governor">
         <div class="menu">
-            <img src="/resourse/icon/unit.png" alt="1">
+            <img src="/resourse/icon/Governor.png" alt="1">
             <h2>총독과 비밀결사</h2>
-            <p>발로 뛰겠습니다!</p>
+            <p>추후 구현 예정</p>
         </div>
         </a>
         <a href="City">
         <div class="menu">
-            <img src="/resourse/icon/tech.png" alt="1">
+            <img src="/resourse/icon/city.png" alt="1">
             <h2>도시국가</h2>
             <p>속국이자 적국</p>
         </div>
@@ -77,7 +77,7 @@
         <div class="menu">
             <img src="/resourse/icon/civ.png" alt="1">
             <h2>종교</h2>
-            <p>뽀 디 엠페러!</p>
+            <p>추후 구현 예정</p>
         </div>
         </a>
     </div>
