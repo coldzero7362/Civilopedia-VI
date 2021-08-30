@@ -49,55 +49,55 @@
         </div>
     </div>
     <div class="promotion">
-        <div class="table">
-            <table>
+        <div class="form">
+            <table class="governor">
                 <tr>
-                    <td>집사 마그누스</td>
+                    <td colspan="2" class="form_menu">집사 마그누스</td>
                 </tr>
                 <tr>
-                    <td>진취적이고 유능한 마그누스 총독은 필요할 때 귀중한 자원을 조달할 수 있습니다. 또한, 도시의 전반적인 생산 최적화에 능숙합니다.</td>
+                    <td colspan="2">진취적이고 유능한 마그누스 총독은 필요할 때 귀중한 자원을 조달할 수 있습니다. 또한, 도시의 전반적인 생산 최적화에 능숙합니다.</td>
                 </tr>
                 <tr>
-                    <td>정착에 필요한 턴 수</td>
-                    <td>턴당 충성도</td>
+                    <td class="form_menu">정착에 필요한 턴 수</td>
+                    <td class="form_menu">턴당 충성도</td>
                 </tr>
                 <tr>
                     <td>5</td>
                     <td>8</td>
                 </tr>
                 <tr>
-                    <td>기본 능력</td>
+                    <td colspan="2" class="form_menu">기본 능력</td>
                 </tr>
                 <tr>
-                    <td>개간인</td>
+                    <td colspan="2" class="tech_menu">개간인</td>
                 </tr>
                 <tr>
-                    <td>자원 수확과 지형 제거로 얻는 수확량 +50%</td>
+                    <td colspan="2">자원 수확과 지형 제거로 얻는 수확량 +50%</td>
                 </tr>
                 <tr>
-                    <td>진급 능력</td>
+                    <td colspan="2" class="form_menu">진급 능력</td>
                 </tr>
                 <tr>
-                    <td>잉여 물류</td>
-                    <td>공급</td>
+                    <td class="tech_menu">잉여 물류</td>
+                    <td class="tech_menu">공급</td>
                 </tr>
                 <tr>
                     <td>도시 성장률 +20%, <br>이 도시로 향하는 국내 교역로는 출발 도시에 +2 식량 제공</td>
                     <td>이 도시에서 개척자를 생산할 때 인구 감소 없음</td>
                 </tr>
                 <tr>
-                    <td>실업가</td>
-                    <td>암거래상</td>
+                    <td class="tech_menu">실업가</td>
+                    <td class="tech_menu">암거래상</td>
                 </tr>
                 <tr>
                     <td>석탄 발전소, 석유 발전소, 원자력 발전소에서<br>얻는 각 자원당 전력 +1, 생산력 +2</td>
                     <td>이 도시에서 생산하는 유닛의 전략 자원 비용 80% 할인</td>
                 </tr>
                 <tr>
-                    <td>수직적 통합</td>
+                    <td colspan="2" class="tech_menu">수직적 통합</td>
                 </tr>
                 <tr>
-                    <td>이 도시는 범위 내의 모든 산업 구역 건물 효과를 중첩해서 받음</td>
+                    <td colspan="2">이 도시는 범위 내의 모든 산업 구역 건물 효과를 중첩해서 받음</td>
                 </tr>
             </table>
         </div>

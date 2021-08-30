@@ -20,7 +20,7 @@
 }
 .face,.secret{
     flex: 1;
-    background-color: rgb(228, 147, 54);
+    background-color: #e49336;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -37,4 +37,21 @@
     width: 180px;
     height: 171px;
     
+}
+.governor{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+    margin-top: 5px;
+}
+.governor td{
+    padding: 7.5px;
+}
+.form_menu{
+    color: white;
+    background-color:#e49336;
+}
+.tech_menu{
+    background-color: #c4c4c4;
 }
