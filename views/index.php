@@ -63,7 +63,7 @@
         <div class="menu">
             <img src="/resourse/icon/Governor.png" alt="1">
             <h2>총독과 비밀결사</h2>
-            <p>추후 구현 예정</p>
+            <p>일해라 핫산</p>
         </div>
         </a>
         <a href="City">
@@ -73,9 +73,9 @@
             <p>속국이자 적국</p>
         </div>
         </a>
-        <a href="civ">
+        <a href="religion">
         <div class="menu">
-            <img src="/resourse/icon/civ.png" alt="1">
+            <img src="/resourse/icon/religion.png" alt="1">
             <h2>종교</h2>
             <p>추후 구현 예정</p>
         </div>

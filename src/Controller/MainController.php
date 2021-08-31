@@ -44,6 +44,10 @@ class MainController extends MasterController
     {
         $this->render("governor");
     }
+    public function religion()
+    {
+        $this->render("religion");
+    }
    
 
     public function getRule()

@@ -12,6 +12,7 @@ Route::get('/civ' , "MainController@civ");
 Route::get('/civ_result' , "MainController@civ_result");
 Route::get('/City' , "MainController@City");
 Route::get('/governor' , "MainController@governor");
+Route::get('/religion' , "MainController@religion");
 
 Route::get("/getRule" , "MainController@getRule");
 Route::get("/getRule_list" , "MainController@getRule_list");

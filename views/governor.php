@@ -3,7 +3,7 @@
 
 <div class="container">
     <div class="profile">
-        <div class="face" data-idx="1">
+        <div class="face" data-idx="1" >
             <img src="/resourse/general/profile/1.png" alt="1">
             <p>집사 마그누스</p>
         </div>
@@ -15,7 +15,7 @@
             <img src="/resourse/general/profile/3.png" alt="3">
             <p>교육자 핑갈라</p>
         </div>
-        <div class="face" data-idx="4">
+        <div class="face fake" data-idx="4">
             <img src="/resourse/general/profile/4.png" alt="4">
             <p>성주 빅토르</p>
         </div>
@@ -35,7 +35,7 @@
             <img src="/resourse/general/profile/8.png" alt="8">
             <p>황금여명회</p>
         </div>
-        <div class="secret Wooheung" data-idx="2">
+        <div class="secret Wooheung fake" data-idx="2">
             <img src="/resourse/general/profile/9.png" alt="9">
             <p>미네르바의 부엉이</p>
         </div>
@@ -101,5 +101,6 @@
                 </tr>
             </table>
         </div>
+        
     </div>
 </div>
