@@ -27,6 +27,9 @@ Route::get("/getCity_kind" , "MainController@getCity_kind");
 Route::get("/getCity_list" , "MainController@getCity_list");
 Route::get('/religion_pantheon' , "MainController@religion_pantheon");
 Route::get('/religion_belief' , "MainController@religion_belief");
+Route::get('/religion_belief' , "MainController@religion_belief");
+Route::get('/get_government' , "MainController@get_government");
+Route::get('/get_policy' , "MainController@get_policy");
 
 
-// localhost/getuser -> JSON { name : '안진우' }
+

@@ -22,13 +22,13 @@
                 <p>뉴 프론티어 패스</p>
             </div>
         </a>
-        <a href="ground">
+        
         <div class="menu">
             <img src="/resourse/icon/tile.png" alt="1">
             <h2>지형&시설</h2>
             <p>추후 구현 예정</p>
         </div>
-        </a>
+        
         <a href="unit">
         <div class="menu">
             <img src="/resourse/icon/unit.png" alt="1">
@@ -36,13 +36,13 @@
             <p>지피지기 백전백승</p>
         </div>
         </a>
-        <a href="tech">
+        
         <div class="menu">
             <img src="/resourse/icon/tech.png" alt="1">
             <h2>기술&사회제도</h2>
             <p>추후 구현 예정</p>
         </div>
-        </a>
+        
         <a href="civ">
         <div class="menu">
             <img src="/resourse/icon/civ.png" alt="1">
@@ -54,9 +54,9 @@
     <div class="menu-list">
         <a href="government">
         <div class="menu">
-            <img src="/resourse/icon/unit.png" alt="1">
+            <img src="/resourse/icon/government.png" alt="1">
             <h2>정부와 정책</h2>
-            <p>추후 구현 예정</p>
+            <p>시대에 올바른 선택</p>
         </div>
         </a>
         <a href="governor">

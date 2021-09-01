@@ -1,8 +1,9 @@
 .container{
-    height: 850px;
+    height: 2065px;
     background-color: #333;
     font-family: 'Do Hyeon', sans-serif;
     color: white;
+    position: relative;
 }
 .title{
     width: 100%;
@@ -21,4 +22,264 @@
 .title > h2{
     padding-bottom: 10px;
     font-weight: 100;
+}
+.governments{
+    width: 100%;
+    height: auto;
+}
+.government_title{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #77521b;
+    
+}
+.government_title > h1{
+    font-weight: 100;
+}
+.governments > table{
+    border: 1px solid #000;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-image: url("/resourse/table_bg.png");
+    border: 5px solid #afa391;
+}
+.governments > table tr td{
+    width: 300px;
+    height: 300px;
+}
+.governments > table th{
+    background-color: #a06e23;
+    color: #ffb340;
+    height: 50px;
+    font-weight: 100;
+    font-size: 1.3em;
+}
+.governments > table img{
+    width: 250px;
+}
+.ideology{
+    width: 250px;
+    height: 270px;
+    margin: 0 auto;
+    background-color: #a06e23;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.ideology:hover{
+    box-shadow: 0 0 15px #ffa724;
+    transform: translateY(-10px);
+}
+.ideology > h3{
+    font-weight: 100;
+}
+.policy_title{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #252525;
+}
+.policy_title > h1{
+    font-weight: 100;
+}
+.policy{
+    display: flex;
+    position: relative;
+}
+.select_btn{
+    width: 100px;
+}
+.button{
+    flex: 1;
+    background-color: #ffa724;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+.button > img{
+    width: 100px;
+}
+.button:nth-child(1){
+    background-color: #b22322;
+}
+.button:nth-child(2){
+    background-color: #cca04f;
+}
+.button:nth-child(3){
+    background-color: #1e771d;
+}
+.button:nth-child(4){
+    background-color: #8258fa;
+}
+.button:nth-child(5){
+    background-color: #222222;
+}
+.button:nth-child(6){
+    background-color: #ffd602;
+}
+.policy_list{
+    width: 90%;
+    flex: 4;
+    height: 100%;
+}
+.tableLike{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: sticky
+}
+.tableLike>div{
+    display: flex;
+    background-color: rgb(95, 95, 116);
+    color: white;
+    justify-content: center;
+    margin: 0 1px;
+    line-height: 50px;
+    font-size: 1.1em;
+    font-weight: 200;
+    font-family: 'Do Hyeon', sans-serif;
+    box-shadow: 0 2px 2px #222;
+}
+.name{
+    flex: 2;
+}
+.tech{
+    flex:1;
+}
+.ability{
+    flex: 3;
+}
+.back{
+    flex:1;
+}
+.policy_list{
+
+}
+.list{
+    width: 100%;
+    height: 850px;
+    overflow: auto;
+    -ms-overflow-style: none;
+}
+.list::-webkit-scrollbar{
+    display:none; 
+}
+.policy_form{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.policy_form>div{
+    display: flex;
+    background-color: rgb(160, 160, 173);
+    color: white;
+    justify-content: center;
+    margin: 0 1px;
+    padding: 30px 0;
+    font-size: auto;
+    font-weight: 200;
+    font-family: 'Do Hyeon', sans-serif;
+    box-shadow: 0 2px 2px #222 inset;
+}
+.policy_form  p{
+    text-align: center;
+}
+
+.popup_bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(75, 75, 75, 0.5);
+    z-index: 10;
+    top: 0;
+}
+.popup{
+    position: absolute;
+    width: 1000px;
+    height: 600px;
+    top: 15%;
+    left: 20%;
+    background-color: #3b3b3b;
+    color: #d3d3d3;
+    text-align: center;
+    
+}
+.bar{
+    width: 100%;
+    height: 50px;
+    background-color: #28282e;
+    position: relative;
+    line-height: 50px;
+}
+.bar>h2{
+    font-weight: 100;
+}
+.close{
+    width: 50px;
+    height: 100%;
+    background-color: #8b1616;
+    font-size: 30pt;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.profile{
+    width: 100%;
+    height: 300px;
+    background-color: #333;
+    display: flex;
+}
+.photo{
+    width: 250px;
+    height: 100%;
+    margin: 10px 20px;
+}
+.photo>img{
+    width: 250px;
+    height: 250px;
+}
+.photo>h2{
+    font-weight: 100;
+}
+.desc{
+    width: 750px;
+    height: 100%;
+}
+.desc>table{
+    margin: 10px 0;
+    width: 700px;
+    height: 90%;
+}
+.table_title{
+    background-color: rgb(80, 80, 99);
+}
+.table_desc{
+    background-color: rgb(73, 73, 73);
+}
+.a{
+    background-color: #8d1b1b;
+}
+.b{
+    background-color: #ce9324;
+}
+.c{
+    background-color: #115c10;
+}
+.d{
+    background-color: #512fad;
+}
+.cnt{
+    font-size: 30px;
+}
+.bonus{
+    width: 100%;
+    height: 250px;
+}
+.bonus > table{
+    width: 100%;
+    height: 100%;
 }

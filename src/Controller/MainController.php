@@ -125,5 +125,17 @@ class MainController extends MasterController
         $result = DB::fetchAll("SELECT * FROM belief WHERE belief_idx = ?" , [ $idx ]);
         Lib::sendJson($result);
     }
+    public function get_policy()
+    {
+        $idx = $_GET['idx'];
+        $result = DB::fetchAll("SELECT * FROM policy WHERE card_idx = ?" , [ $idx ]);
+        Lib::sendJson($result);
+    }
+    public function get_government()
+    {
+        $idx = $_GET['idx'];
+        $result = DB::fetchAll("SELECT * FROM government WHERE idx = ?" , [ $idx ]);
+        Lib::sendJson($result);
+    }
 
 }
