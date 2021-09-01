@@ -52,7 +52,7 @@
         </a>
     </div>
     <div class="menu-list">
-        <a href="unit">
+        <a href="government">
         <div class="menu">
             <img src="/resourse/icon/unit.png" alt="1">
             <h2>정부와 정책</h2>
@@ -77,7 +77,7 @@
         <div class="menu">
             <img src="/resourse/icon/religion.png" alt="1">
             <h2>종교</h2>
-            <p>추후 구현 예정</p>
+            <p>좋은 말씀 전하러 왔습니다.</p>
         </div>
         </a>
     </div>

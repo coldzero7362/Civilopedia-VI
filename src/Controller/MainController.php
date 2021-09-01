@@ -48,6 +48,10 @@ class MainController extends MasterController
     {
         $this->render("religion");
     }
+    public function government()
+    {
+        $this->render("government");
+    }
    
 
     public function getRule()
@@ -108,6 +112,17 @@ class MainController extends MasterController
     {
         $idx = $_GET['idx'];
         $result = DB::fetchAll("SELECT * FROM city_list WHERE kind = ?" , [ $idx ]);
+        Lib::sendJson($result);
+    }
+    public function religion_pantheon()
+    {
+        $result = DB::fetchAll("SELECT * FROM pantheons");
+        Lib::sendJson($result);
+    }
+    public function religion_belief()
+    {
+        $idx = $_GET['idx'];
+        $result = DB::fetchAll("SELECT * FROM belief WHERE belief_idx = ?" , [ $idx ]);
         Lib::sendJson($result);
     }
 
